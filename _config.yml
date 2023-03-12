@@ -19,7 +19,7 @@ show_social: true
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home Change" }
   - { title: "about me", file: "README.md"}
-  - {title:"Publications", file: "publications.md"}
+  - {title: "Publications", file: "publications.md"}
   - {title: "Teaching", file: "teaching.md"}
   
   
