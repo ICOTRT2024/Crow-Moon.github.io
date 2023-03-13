@@ -1,7 +1,13 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
+gemspec
 
-gem "jekyll", "~> 4.2.0"
+gem 'jekyll'
 
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
+gem 'wdm', '>= 0.1.0'
+
+gem 'jekyll-paginate'
+gem 'jekyll-feed'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
