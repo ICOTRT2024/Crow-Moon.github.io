@@ -1,5 +1,6 @@
 pages:
-  - {name: 'About', url: 'about.html'}
+  - {name: 'CV', file: 'cv.pdf'}
   - {name: 'Contact', url: 'contact.html'}
   - {name: 'Archive', url: 'archive.html'}
-  - {name: 'Get YAMT', url: 'https://github.com/PandaSekh/Jekyll-YAMT'}
+  - {name: 'Publications', url: 'publishcations.html'}
+  - {name: 'Teaching', url: 'teaching.html'}
