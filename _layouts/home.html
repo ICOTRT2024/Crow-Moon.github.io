@@ -4,6 +4,7 @@ title: Home
 ---
 
 {% if site.data.settings.posts.active %}
+{% for post in paginator.posts %}
 <div class="post">
     <h2 id = "post-title"><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
 
@@ -16,7 +17,6 @@ title: Home
         </span>
     </div>
     {% endif %}
-     {% endif %}
 
     {% if site.data.settings.featured-img.active %}
     <div class = "featured-img-container">
@@ -51,3 +51,5 @@ title: Home
   {% endif %}
   {% endif %}
 </div>
+     
+{% endif %}
