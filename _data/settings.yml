@@ -12,6 +12,10 @@ nav:
     active: true
   social:
     active: false
+    
+#Posts
+posts: 
+active: false
 
 #Featured images in homepage
 featured-img:
