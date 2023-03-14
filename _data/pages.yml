@@ -1,5 +1,5 @@
 pages:
-  - {name: 'CV', url: 'cv.pdf'}
+  - {name: 'CV', file: 'cv.pdf'}
   - {name: 'Contact', url: 'contact.html'}
   - {name: 'Archive', url: 'archive.html'}
   - {name: 'Publications', url: 'publishcations.html'}
