@@ -15,19 +15,19 @@ nav:
     
 #Posts
 posts: 
-active: true
+active: false
 
 #Featured images in homepage
 featured-img:
-  active: true
+  active: false
 
 #Show categories at the end of posts
 categories:
-  active: true
+  active: false
 
 #Show date and read time under the post title
 date-under-post:
-  active: true
+  active: false
 
 #Use MathJAX
 mathjax:
