@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Home
-
-
-{% if site.data.settings.posts.active %}
+---
 {% for post in paginator.posts %}
+
 <div class="post">
     <h2 id = "post-title"><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
 
@@ -51,5 +50,3 @@ title: Home
   {% endif %}
   {% endif %}
 </div>
-     
-{% endif %}

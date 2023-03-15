@@ -4,7 +4,7 @@ analytics-id: #leave blank to not use Analytics
 #Subtitle
 subtitle:
   active: true
-  text: Crow's Nest
+  text: Yet Another Minimal Theme
 
 #Nav 
 nav:
@@ -12,10 +12,6 @@ nav:
     active: true
   social:
     active: true
-    
-#Posts
-posts: 
-active: true
 
 #Featured images in homepage
 featured-img:
@@ -27,7 +23,7 @@ categories:
 
 #Show date and read time under the post title
 date-under-post:
-  active: false
+  active: true
 
 #Use MathJAX
 mathjax:
@@ -35,8 +31,8 @@ mathjax:
 
 #Show related posts based on categories
 related-posts:
-  active: false
+  active: true
   title: "You May Also Enjoy"
 
 #Comments
-comments: false
+comments: true

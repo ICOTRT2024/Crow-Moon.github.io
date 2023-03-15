@@ -26,15 +26,14 @@ header{
         h1{
             margin-bottom: 0px;
         }
-        h2{ display: inline-block
-            margin-bottom: 20px;
-            margin-top: 20px;
+        h2{
+            margin-top: 0px;
             font-style: oblique;
-            font-size: 3rem;
+            font-size: 1.2rem;
         }
     }
     #subheader{
-        display: inline-block;
+        display: block;
         margin-top: 15px;
             .pages{
                 display: block;
@@ -46,7 +45,7 @@ header{
                     text-decoration: none;
                     color: $base; 
                     margin-right: 3px;
-                    font-size: 3rem;
+                    font-size: 1.05rem;
                 }
             }
             .social{
