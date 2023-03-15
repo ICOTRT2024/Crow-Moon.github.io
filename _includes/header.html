@@ -10,16 +10,18 @@
 		{% endif %}
 	</div>
 
-	<div id="subheader" style="display: flex; justify-content: space-between;">
-		{% if site.data.settings.nav.pages.active %}
-		<nav class="pages">
-			{%- include pages.html -%}
-		</nav>
-		{% endif %}
-		{% if site.data.settings.nav.social.active %}
-		<nav class="social">
-			{% include social.html %}
-		</nav>
-		{% endif %}
+	<div id="subheader">
+		<div class="subheader-links">
+			{% if site.data.settings.nav.pages.active %}
+			<nav class="pages">
+				{%- include pages.html -%}
+			</nav>
+			{% endif %}
+			{% if site.data.settings.nav.social.active %}
+			<nav class="social">
+				{% include social.html %}
+			</nav>
+			{% endif %}
+		</div>
 	</div>
 </header>

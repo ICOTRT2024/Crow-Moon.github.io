@@ -2,9 +2,12 @@
 ---
 
 @import "base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";
-#subheader {
+.subheader-links {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 20px;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.subheader-links a {
+  padding: 0.5rem;
 }
