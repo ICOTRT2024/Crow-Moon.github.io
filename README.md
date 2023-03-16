@@ -129,7 +129,7 @@ In `_data/settings.yml` you can choose to hide or show the posts infos (date and
 
 ### Post
 In `_data/settings.yml` you can choose to hide or show the post infos, categories, related posts and comments.
-Note that by removing categories the Categories Archives will no longer be reachable.
+Note that by removing categories the Categories seminars will no longer be reachable.
 
 ### Contact Form
 YAMT has a built-in contact form builded using [Netlify](https://app.netlify.com/) free form functionality. To make it work you only need the line `data-netlify="true"` when declaring a form.  

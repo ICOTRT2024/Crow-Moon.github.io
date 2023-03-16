@@ -5,16 +5,16 @@ title: Categories
 ---
 
 {% for category in site.categories %}
-  <div class="archive-group">
+  <div class="seminar-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
 
-    <h2 class="archive-cat">{{ category_name }}</h2>
+    <h2 class="seminar-cat">{{ category_name }}</h2>
     <a name="{{ category_name | slugize }}"></a>
     <ul>
     {% for post in site.categories[category_name] %}
-      <li><a class="archive-link" href="{{ post.url | relative_url}}">{{post.title}}</a></li>
+      <li><a class="seminar-link" href="{{ post.url | relative_url}}">{{post.title}}</a></li>
     {% endfor %}
     </ul>
   </div>
