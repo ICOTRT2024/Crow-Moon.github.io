@@ -3,5 +3,4 @@ pages:
   - {name: 'Publications', url: 'publications.html'}
   - {name: 'Seminars', url: 'seminar.html'}
   - {name: 'Contact', url: 'contact.html'}
-  - {name: 'Posts', url:'post.html'}
   - {name: 'Get YAMT', url: 'https://github.com/PandaSekh/Jekyll-YAMT'}
