@@ -3,9 +3,11 @@
 
 @import"base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";
 
+@media (max-width: 768px) {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 80%; /* adjust the width as per your requirement */
+  width: 100%; /* adjust the width as per your requirement */
   margin: 0 auto; /* horizontally center the navigation links */
+}
 }
