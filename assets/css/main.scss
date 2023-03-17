@@ -1,7 +1,7 @@
 ---
 ---
 
-@import("base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";)
+{@import"base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";}
 
 @media (max-width: 768px) {
 .nav-links {
