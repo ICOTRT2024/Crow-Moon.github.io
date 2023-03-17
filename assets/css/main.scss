@@ -1,9 +1,11 @@
 ---
 ---
 
-@import "base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";
+@import"base", "typography", "header", "post", "home", "footer", "paginator", "scrollbar", "contact", "related-posts", "mobile";
 
 .nav-links {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* adjust the width as per your requirement */
+  margin: 0 auto; /* horizontally center the navigation links */
+}
