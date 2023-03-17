@@ -34,30 +34,26 @@ header{
     }
     #subheader{
         display: flex;
-        justify-content: space-between;
+        justify-content: center; /* center horizontally */
         align-items: center;
         height: 60px;
-        margin-top: 20px;
-            .pages{
-                display: block;
-                float: left;
-                a:hover{
-                    color: black;
-                }
-                a{
-                    text-decoration: none;
-                    color: $base; 
-                    margin-right: 3px;
-                    font-size: 1.05rem;
-                }
+        margin-top: 25px;
+        .pages{
+            display: block;
+            a:hover{
+                color: black;
             }
-            
+            a{
+                text-decoration: none;
+                color: $base; 
+                margin-right: 10px; /* increase margin between pages */
+                font-size: 1.05rem;
+            }
         }
         .social{
             display: block;
-            float: right;
             i{
-                margin-right: 3px;
+                margin-right: 10px; /* increase margin between social links */
                 -o-transition: .5s;
                 -ms-transition: .5s;
                 -moz-transition: .5s;
@@ -105,3 +101,4 @@ header{
             }
         }
     }
+}   
