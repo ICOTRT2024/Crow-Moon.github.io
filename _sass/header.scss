@@ -17,7 +17,7 @@ header {
     width: 550px;
     overflow: hidden;
   
-    #site_title {
+    #site_title{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -29,7 +29,7 @@ header {
         margin-right: 10px;
       }
   
-      #title {
+      #title{
         font-size: 2rem;
         margin: 0;
         padding: 0;
@@ -114,4 +114,4 @@ header {
             }
         }
     }
-}   
+
