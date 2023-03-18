@@ -17,21 +17,35 @@ header{
     width: 550px;
     overflow: hidden;
   
-    #site_title{
-        text-align: center;
-        color: black;
-        a{
+    #site_title {
+        display: flex;
+        align-items: center;
+    
+        a {
+            display: flex;
+            align-items: center;
             text-decoration: none;
+            color: black;
+    
+            img {
+                height: 40px; /* set the height of the logo */
+                margin-right: 10px; /* add some space between the logo and the title */
+            }
+    
+            h1 {
+                margin: 0;
+                font-size: 1.5rem;
+                line-height: 40px; /* match the height of the logo */
+            }
         }
-        h1{
-            margin-bottom: 0px;
-        }
-        h2{
-            margin-top: 0px;
+    
+        h2 {
+            margin: 0;
             font-style: oblique;
             font-size: 1.2rem;
         }
     }
+    
     #subheader{
         display: flex;
         justify-content: center; /* center horizontally */
