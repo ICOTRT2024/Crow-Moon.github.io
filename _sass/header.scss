@@ -11,15 +11,14 @@ $youtube: #ff0000;
 $whatsapp: #25d366;
 $reddit: #ff4500;
 
+
 header {
-    
     margin-left: auto;
     margin-right: auto;
     width: 550px;
     overflow: hidden;
   
-    #site_title{
-       
+    #site_title a {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -31,7 +30,7 @@ header {
         margin-right: 10px;
       }
   
-      #title{
+      #title {
         text-decoration: none;
         border: none;
         font-size: 2rem;
@@ -46,6 +45,7 @@ header {
       }
     }
   }
+  
   
       
     
