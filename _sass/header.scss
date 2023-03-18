@@ -12,95 +12,113 @@ $whatsapp: #25d366;
 $reddit: #ff4500;
 
 
-header{
-    margin-left: auto;
-    margin-right: auto;
+header {
+    margin-left: auto; /* center horizontally */
+    margin-right: auto; /* center horizontally */
     width: 550px;
     overflow: hidden;
-  
-    #site_title{
-        text-align: center;
+
+    #site_title {
+        text-align: center; /* center the text horizontally */
         color: black;
-        a{
-            text-decoration: none;
+
+        a {
+            text-decoration: none; /* remove underline from link */
         }
-        h1{
-            margin-bottom: 0px;
+
+        h1 {
+            margin-bottom: 0px; /* remove bottom margin from h1 element */
         }
-        h2{
-            margin-top: 0px;
-            font-style: oblique;
-            font-size: 1.2rem;
+
+        h2 {
+            margin-top: 0px; /* remove top margin from h2 element */
+            font-style: oblique; /* add italic style */
+            font-size: 1.2rem; /* set font size to 1.2rem */
         }
     }
-    #subheader{
-        display: flex;
+
+    #subheader {
+        display: flex; /* make the subheader a flex container */
         justify-content: center; /* center horizontally */
-        align-items: center;
-        height: 60px;
-        margin-top: 27px;
-        .pages{
-            display: block;
-            a:hover{
-                color: black;
+        align-items: center; /* center vertically */
+        height: 60px; /* set the height to 60px */
+        margin-top: 27px; /* add margin to the top */
+
+        .pages {
+            display: block; /* display the pages as block elements */
+            a:hover {
+                color: black; /* change the color on hover */
             }
-            a{
-                text-decoration: none;
-                color: $base; 
-                margin-right: 10px; /* increase margin between pages */
-                font-size: 1.05rem;
+            a {
+                text-decoration: none; /* remove underline from link */
+                color: $base; /* set the color to $base */
+                margin-right: 10px; /* add margin between pages */
+                font-size: 1.05rem; /* set font size to 1.05rem */
             }
         }
-        .social{
-            display: block;
-            i{
-                margin-right: 10px; /* increase margin between social links */
-                -o-transition: .5s;
-                -ms-transition: .5s;
-                -moz-transition: .5s;
-                -webkit-transition: .5s;
-                transition: .5s;
+
+        .social {
+            display: block; /* display the social links as block elements */
+            i {
+                margin-right: 10px; /* add margin between social links */
+                -o-transition: .5s; /* set transition for Opera */
+                -ms-transition: .5s; /* set transition for Microsoft Edge */
+                -moz-transition: .5s; /* set transition for Mozilla Firefox */
+                -webkit-transition: .5s; /* set transition for Safari and Chrome */
+                transition: .5s; /* set transition */
             }
-            a{
-                color: $base;
+
+            a {
+                color: $base; /* set the color to $base */
             }
-            i{
-                font-size: 1.1rem;
+
+            i {
+                font-size: 1.1rem; /* set font size to 1.1rem */
             }
-            #github:hover{
-                color: $github;
+
+            #github:hover {
+                color: $github; /* change color on hover */
             }
-            #twitter:hover{
-                color: $twitter;
+
+            #twitter:hover {
+                color: $twitter; /* change color on hover */
             }
-            #linkedin:hover{
-                color: $linkedin;
+
+            #linkedin:hover {
+                color: $linkedin; /* change color on hover */
             }
-            #rss:hover{
-                color: $rss;
+
+            #rss:hover {
+                color: $rss; /* change color on hover */
             }
-            #envelope:hover{
-                color: $mail;
+
+            #envelope:hover {
+                color: $mail; /* change color on hover */
             }
-            #instagram:hover{
-                color: $instagram;
+
+            #instagram:hover {
+                color: $instagram; /* change color on hover */
             }
-            #facebook:hover{
-                color: $facebook;
+
+            #facebook:hover {
+                color: $facebook; /* change color on hover */
             }
-            #messenger:hover{
-                color: $messenger;
+
+            #messenger:hover {
+                color: $messenger; /* change color on hover */
             }
-            #youtube:hover{
-                color: $youtube;
+
+            #youtube:hover {
+                color: $youtube; /* change color on hover */
             }
-            #whatsapp:hover{
-                color: $whatsapp;
+
+            #whatsapp:hover {
+                color: $whatsapp; /* change color on hover */
             }
-            #reddit:hover{
-                color: $reddit;
+
+            #reddit:hover {
+                color: $reddit; /* change color on hover */
             }
         }
     }
 }
-
