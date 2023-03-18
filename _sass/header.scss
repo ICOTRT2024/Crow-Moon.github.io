@@ -11,36 +11,38 @@ $youtube: #ff0000;
 $whatsapp: #25d366;
 $reddit: #ff4500;
 
-header{
+header {
     margin-left: auto;
     margin-right: auto;
     width: 550px;
     overflow: hidden;
   
     #site_title {
-        display: flex;
-        align-items: center; /* align items vertically */
-        margin-bottom: 20px; /* add some space below the title */
-        color: black;
-      
-        #logo {
-          height: 60px; /* set the height of the logo to match the title */
-          margin-right: 10px; /* add some space between the logo and title */
-        }
-      
-        #title {
-          font-size: 2rem;
-          margin: 0;
-          padding: 0;
-        }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+      color: black;
+  
+      #logo {
+        height: 60px;
+        margin-right: 10px;
       }
-      
+  
+      #title {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+      }
+  
       #site_subtitle {
         font-style: italic;
         font-size: 1.2rem;
-        margin-top: 200px; /* add margin to move the subtitle below the title */
+        margin-top: 10px;
       }
-      
+    }
+  }
+  
       
     
     #subheader{

@@ -1,15 +1,16 @@
 <header id="header">
 	<div id="site_title">
-		<a href="{{ "/" | absolute_url }}" style="display:flex; align-items:center;">
-		  <img src="logo.png" alt="Logo" height="60" style="margin-right:10px;">
-		  <h1 style="margin:0;">Crow</h1>
+		<a href="{{ "/" | absolute_url }}">
+		  <img src="logo.png" alt="Logo" height="60" id="logo">
+		  <h1 id="title">Crow</h1>
 		</a>
 		{% if site.data.settings.subtitle.active %}
-		  <h2 style="font-style: italic; font-size: 1.2rem; margin-top: 10px;">
+		  <h2 id="site_subtitle">
 			{{ site.data.settings.subtitle.text }}
 		  </h2>
 		{% endif %}
 	  </div>
+	  
 
 	<div id="subheader">
 		<div class="subheader-links">
