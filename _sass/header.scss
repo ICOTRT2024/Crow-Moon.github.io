@@ -18,34 +18,29 @@ header{
     overflow: hidden;
   
     #site_title {
-        text-align: center;
-        color: black;
         display: flex;
         align-items: center; /* align items vertically */
         margin-bottom: 20px; /* add some space below the title */
+        color: black;
       
         #logo {
           height: 60px; /* set the height of the logo to match the title */
           margin-right: 10px; /* add some space between the logo and title */
         }
       
-        #site_subtitle {
-          font-style: italic;
-          font-size: 1.2rem;
-          margin-top: 10px; /* add margin to move the subtitle below the title */
-        }
-      
-        h1 {
-          margin-bottom: 0px;
+        #title {
           font-size: 2rem;
-        }
-      
-        h2 {
-          margin-top: 0px;
-          font-style: oblique;
-          font-size: 1.2rem;
+          margin: 0;
+          padding: 0;
         }
       }
+      
+      #site_subtitle {
+        font-style: italic;
+        font-size: 1.2rem;
+        margin-top: 10px; /* add margin to move the subtitle below the title */
+      }
+      
       
     
     #subheader{
