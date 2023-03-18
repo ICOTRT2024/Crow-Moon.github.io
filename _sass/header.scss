@@ -19,8 +19,7 @@ header {
     overflow: hidden;
   
     #site_title{
-        text-decoration: none;
-     border: none;
+       
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -33,6 +32,8 @@ header {
       }
   
       #title{
+        text-decoration: none;
+        border: none;
         font-size: 2rem;
         margin: 0;
         padding: 0;
